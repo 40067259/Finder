@@ -1,0 +1,113 @@
+body{
+	background-image: url("/home.jpg");
+	position: absolute;
+	z-index: -2;
+};
+
+.general {
+	color:palegreen;
+
+}
+.logo
+{
+	background-color:#131a2f;
+	color:red;
+	width:1250px;
+	margin-top:40px;
+	margin-left:60px;
+	padding-left:80px;
+	padding-top:20px;
+	border:2px pink solid;
+	border-radius: 10px;
+
+	height: 120px;
+	padding-left: -10px;
+  color:white
+}
+
+.logo a {
+	padding-left:180px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:blueviolet
+}
+
+
+/* .logo div:first-of-type   */
+.Hoteval
+{
+	color:yellow;
+	margin-top: 0px;
+	padding-left:-20px;
+	padding-top:26px;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 0.75;
+	text-transform: uppercase;
+}
+
+.hotel
+{
+	font-size: 10px;
+	font-weight: 500;
+	color: #929292;
+	letter-spacing: 0.13em;
+	margin-top: 0px;
+	padding-left: 8px;
+	text-transform: uppercase;
+}
+.logo_image
+{
+	position: absolute;
+	top: 58px;
+	left: 110px;
+	width: 50px;
+	height: 41px;
+	border-radius: 10px;
+}
+.greeting {
+	color:white;
+	border:1px solid #131a2f;
+	position: absolute;
+	margin-left: 1000px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.signUp{
+	background-image: url("/popular_7.jpg");
+  color:red;
+	background-size:cover;
+	width:100%;
+	height: 100%;
+}
+
+.home_text_large
+{
+	margin-top:120px;
+	margin-left:160px;
+	font-size: 215px;
+	font-weight: 900;
+	color: #fdaa27;
+	opacity: 0.34;
+	text-transform: uppercase;
+	line-height: 0.75;
+}
+.home_text_small
+{
+	margin-top:140px;
+	margin-left:400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	font-size: 72px;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-shadow: 0px 11px 51px rgba(0,0,0,0.35);
+}
